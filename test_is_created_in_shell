@@ -1,5 +1,15 @@
 this is created in shell
 
+airflow/airflow/utils/ema
+
+airflow/airflow/utils/ema
+
+endings such that we have only LF line endings in the repository. But for binary files that are accidentally classified as text the conversion can corrupt data.
+
+If you recognize such corruption early you can easily fix it by setting the conversion type explicitly in .gitattributes. Right after committing you still have the original file in your work tree and this file is not yet corrupted. You can explicitly tell Git that this file is binary and Git will handle the file appropriately.
+
+Unfortunately, the desired effect of cleaning up text files with mixed line endings and the undesired effect of corrupting binary files cannot be distinguish
+
 
 
 
